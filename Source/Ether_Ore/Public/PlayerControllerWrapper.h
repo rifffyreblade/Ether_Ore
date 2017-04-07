@@ -13,7 +13,7 @@ class ETHER_ORE_API APlayerControllerWrapper : public APlayerController
 {
 	GENERATED_BODY()
 	
-	
-	
-	
+public:
+	UFUNCTION(BlueprintCallable, Category = Ether_Ore)
+	void NextPlayer();
 };

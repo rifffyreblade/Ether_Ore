@@ -3,6 +3,9 @@
 #include "Ether_Ore.h"
 #include "PlayerControllerWrapper.h"
 
-
+void APlayerControllerWrapper::NextPlayer()
+{
+	ServerViewNextPlayer();
+}
 
 

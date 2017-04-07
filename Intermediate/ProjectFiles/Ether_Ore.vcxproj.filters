@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Ether_Ore.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{BC34FCEF-E51F-422A-92A7-2F7FE48B2F11}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Ether_Ore.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Ether_OreEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{11FA7AEC-0FAD-4CAB-BFE6-B9C1F86F25A7}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\desktop.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Ether_Ore">
+			<UniqueIdentifier>{83552634-C8B5-4BD0-AF61-6253F35D74D8}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Ether_Ore\Ether_Ore.Build.cs">
+			<Filter>Source\Ether_Ore</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Ether_Ore\Ether_Ore.cpp">
+			<Filter>Source\Ether_Ore</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Ether_Ore\Ether_Ore.h">
+			<Filter>Source\Ether_Ore</Filter>
+		</ClInclude >
+		<Filter Include="Source\Ether_Ore\Private">
+			<UniqueIdentifier>{DA3A18C9-1F80-4624-A892-8102529AB037}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Ether_Ore\Private\PlayerControllerWrapper.cpp">
+			<Filter>Source\Ether_Ore\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\Ether_Ore\Public">
+			<UniqueIdentifier>{DED32B68-9EEE-44CD-BA44-0E89BB6123F4}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\Ether_Ore\Public\PlayerControllerWrapper.h">
+			<Filter>Source\Ether_Ore\Public</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
